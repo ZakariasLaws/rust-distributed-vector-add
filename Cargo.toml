@@ -1,0 +1,8 @@
+[package]
+name = "vector_add"
+version = "0.1.0"
+authors = ["zakarias NL <zakarias.nl@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+mpi = "0.5"
