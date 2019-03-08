@@ -25,4 +25,4 @@ OMPI_OPTS="--mca btl ^usnic"
 $MPI_RUN $OMPI_OPTS $APP $ARGS
 ```
 
-Compile with `cargo build` and execute with slurm with `sbatch mpi_run vector_add <array_length>`
+Compile with `cargo build` and execute with slurm with `sbatch mpi_run /path/to/vector_add <array_length>`. The binary will be located in `target/debug/` when building in development.
